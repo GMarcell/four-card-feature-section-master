@@ -51,8 +51,7 @@ h2 {
     border-radius: 10px;
     padding: 20px 20px 0;
     box-shadow: 2px 3px 15px hsl(229, 6%, 66%);
-    margin-bottom: 25px;
-    clear: right;
+    margin: 10px 5px 15px;
 }
 
 .team-builder {
@@ -60,7 +59,7 @@ h2 {
     border-radius: 10px;
     padding: 20px 20px 0;
     box-shadow: 2px 3px 15px hsl(229, 6%, 66%);
-    margin-bottom: 25px;
+    margin: 10px 5px 15px;
 }
 
 .karma {
@@ -68,7 +67,7 @@ h2 {
     border-radius: 10px;
     padding: 20px 20px 0;
     box-shadow: 2px 3px 15px hsl(229, 6%, 66%);
-    margin-bottom: 25px;
+    margin: 10px 5px 15px;
 }
 
 .calculator {
@@ -76,8 +75,31 @@ h2 {
     border-radius: 10px;
     padding: 20px 20px 0;
     box-shadow: 2px 3px 15px hsl(229, 6%, 66%);
-    margin-bottom: 25px;
-    color: aquamarine;
+    margin: 10px 5px 15px;
 }
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .items {
+        display: flex;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    .supervisor {
+        margin: auto 10px;
+        width: 300px;
+        height: fit-content;
+    }
+    .calculator {
+        margin: auto 10px;
+        height: fit-content;
+        width: 300px;
+    }
+    .team-builder {
+        margin: 10px;
+        width: 300px;
+    }
+    .karma {
+        margin: 10px;
+        width: 300px;
+    }
+}
